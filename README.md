@@ -4,6 +4,13 @@ This helps get started with a react-redux project.
 
 It also compiles SCSS to CSS
 
+To get the sample up and running, you need to do the following:-
+  - Clone the repo
+  - Install the latest Node
+  - Install NPM
+
+```npm install```
+
 To run the dev environment use:
 
 ```npm start```
