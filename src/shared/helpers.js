@@ -73,7 +73,6 @@ export function getDummyPlanOptions(dispatch, second) {
     })
     .catch(error => {
       console.error(error)
-
       return null
     })
 }

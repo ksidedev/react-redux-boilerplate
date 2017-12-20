@@ -4,27 +4,28 @@
       "dummyPlans": [
         {
           "dataID": "1",
-          "name": "Test",
+          "name": "Test"
         },
         {
           "dataID": "2",
-          "name": "Test",
+          "name": "Test"
         },
         {
           "dataID": "3",
-          "name": "Test",
+          "name": "Test"
         },
         {
           "dataID": "4",
-         "name": "Test",
+         "name": "Test"
         }
       ],
       "mobileSharerPlan": {
-        "name": "Test",
+        "dataID": "6",
+        "name": "Test"
       },
       "dataSharerPlan": {
         "dataID": "6",
-        "name": "Test",
+        "name": "Test"
       }
     }
   },
