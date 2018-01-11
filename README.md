@@ -16,7 +16,7 @@ To run the dev environment use:
 ```npm start```
 
 and to create a static (prod) build use:
-
+```npm run format```
 ```npm run build```
 
 This project uses [Quick React Starter](https://github.com/jwarning/quick-react-starter.git) under the hood to manage all the build tooling.
