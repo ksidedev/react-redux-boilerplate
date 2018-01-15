@@ -4,29 +4,21 @@
       "dummyPlans": [
         {
           "dataID": "1",
-          "name": "Test"
+          "name": "First Name"
         },
         {
           "dataID": "2",
-          "name": "Test"
+          "name": "Second Name"
         },
         {
           "dataID": "3",
-          "name": "Test"
+          "name": "Third Name"
         },
         {
           "dataID": "4",
-         "name": "Test"
+         "name": "Forth Name"
         }
-      ],
-      "mobileSharerPlan": {
-        "dataID": "6",
-        "name": "Test"
-      },
-      "dataSharerPlan": {
-        "dataID": "6",
-        "name": "Test"
-      }
+      ]
     }
   },
   "second": {
@@ -34,29 +26,21 @@
       "dummyPlans": [
         {
           "dataID": "7",
-          "name": "Test"
+          "name": "Seventh Name"
         },
         {
           "dataID": "8",
-          "name": "Test"
+          "name": "Eight Name"
         },
         {
           "dataID": "9",
-          "name": "Test"
+          "name": "Ninth Name"
         },
         {
           "dataID": "10",
-          "name": "Test"
+          "name": "Tenth Name"
         }
-      ],
-      "mobileSharerPlan": {
-        "dataID": "11",
-        "name": "Test"
-      },
-      "dataSharerPlan": {
-        "dataID": "12",
-        "name": "Test"
-      }
+      ]
     }
   },
   "copy": {

@@ -2,7 +2,12 @@
 import React, { PureComponent } from 'react'
 import { connect } from 'react-redux'
 import { updateTimestamp, updateReduxExample } from '../../shared/actions'
-import { getTheTime, getTheDate, getConvertedTime, getDummyPlanOptions } from '../../shared/helpers'
+import {
+  getTheTime,
+  getTheDate,
+  getConvertedTime,
+  getDummyPlanOptions
+} from '../../shared/helpers'
 import styles from './example-react.scss'
 
 class ExampleReact extends PureComponent {
@@ -28,26 +33,28 @@ class ExampleReact extends PureComponent {
 
     return (
       <div className={styles.wrapper}>
-        <p>
-          Props from Value HTML: {this.props.value}
-        </p>
+        <p>Props from Value HTML: {this.props.value}</p>
 
-        <p>
-          Seved with Redux: {getSavedRedux}
-        </p>
+        <p>Seved with Redux: {getSavedRedux}</p>
 
-        <p>
-          Timestamp: {dateToFormat}
-        </p>
+        <p>Timestamp: {dateToFormat}</p>
 
-        <p>
-          Converted Time: {this.props.convertTime}
-        </p>
+        <p>Converted Time: {this.props.convertTime}</p>
 
-        <p>
-          Current Date: {getTheDate()}
-        </p>
-        <a className={`btn btn-primary ${styles.button}`} onClick={this.calculate}>
+        <p>Current Date: {getTheDate()}</p>
+
+        <div className={`${styles.data} ${styles.block}`}>
+          <p className={styles.dataHeading}>JSON Data</p>
+          {this.props.dummyPlanOptions.dummyPlans &&
+            this.props.dummyPlanOptions.dummyPlans.map((item, index) => (
+              <span key={index}>
+                {this.props.dummyPlanOptions.dummyPlans[index].name}
+              </span>
+            ))}
+        </div>
+        <a
+          className={`btn btn-primary ${styles.button}`}
+          onClick={this.calculate}>
           Get Time
         </a>
       </div>
